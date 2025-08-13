@@ -9,6 +9,43 @@
     <link rel="icon" href="assets/books-svgrepo-com.svg" type="image/svg+xml">
 </head>
 <body>
-    
+    <main>
+        <div id="header">
+            <p><img src="assets/books-svgrepo-com.svg" alt="Library Icon">Library</p>
+            <button id="more"><img src="assets/add-square-svgrepo-com.svg" alt="More Icon">New Book</button>
+        </div>
+        <div id="main-content"></div>
+        <dialog>
+            <button>Cancel</button>
+            <p>Enter relevant information here:&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <form>
+                <!-- Text Input -->
+                <label for="title">Book Title:</label>
+                <input autofocus type="text" id="title" name="title" required />
+                <br><br>
+
+                <!-- Author -->
+                <label for="author">Author:</label>
+                <input required type="text" id="author" name="author" />
+                <br><br>
+
+                <!-- Number -->
+                <label for="pages">Number of Pages:</label>
+                <input required type="number" id="pages" name="pages" min="1" />
+                <br><br>
+
+                <!-- Radio Buttons -->
+                <fieldset>
+                    <legend>Have you read this book?</legend>
+                    <label><input required type="radio" name="read" value="yes" /> Yes</label>
+                    <label><input required type="radio" name="read" value="no" /> No</label>
+                </fieldset>
+                <br><br>
+                <br><br>
+                <!-- Submit Button -->
+                <button id="submit">Submit</button>
+            </form>
+        </dialog>
+    </main>
 </body>
 </html>

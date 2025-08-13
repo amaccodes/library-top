@@ -5,3 +5,105 @@
 }
 
 */
+
+:root {
+    --main-height: 100vh;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+main {
+    height: var(--main-height);
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    background-color: black;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 30px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    align-items: center;
+}
+
+#main-content {
+    height: calc(var(--main-height) - 95px);
+    padding: 24px;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    gap: 15px;
+    background-color: whitesmoke;
+}
+
+#header > p > img {
+    height: 45px;
+}
+
+#header > #more > img {
+    height: 28px;
+}
+
+#more {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+dialog {
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 32px;
+}
+
+button[type="submit"] {
+    border: solid black;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+}
+
+input {
+    border-radius: 6px;
+    padding-block: 3px;
+    padding-inline: 4px;
+}
+
+input:focus {
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    z-index: 1;
+}
+
+fieldset {
+    border: solid black;
+    border-radius: 6px;
+}
+
+
+p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 32px;
+}
+
