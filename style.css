@@ -7,7 +7,15 @@
 */
 
 :root {
-    --main-height: 100vh;
+    --main-height: 150vh;
+}
+
+span {
+    font-size: 11px;
+}
+
+#github {
+    color: white;
 }
 
 button {
@@ -19,6 +27,7 @@ button {
 html, body {
     margin: 0px;
     padding: 0px;
+    overscroll-behavior-y: none;
 }
 
 
