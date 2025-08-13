@@ -26,8 +26,8 @@ This is a project built as part of [The Odin Project's Full Stack JavaScript cur
 
 ## 📸 Screenshot
 
-![Library Screenshot](assets/Screenshot 2025-08-13 at 3.23.13 AM.png) <!-- Replace this with your own screenshot path -->
-![Library Screenshot](assets/Screenshot 2025-08-13 at 3.27.07 AM.png)
+![Library Screenshot](assets/image_1.png) <!-- Replace this with your own screenshot path -->
+![Library Screenshot](assets/image_2.png)
 
 ---
 
